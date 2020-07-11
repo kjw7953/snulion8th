@@ -24,6 +24,7 @@ class Feed(models.Model): # 모델 클래스명은 단수형을 사용 (Feeds(x)
 
     def __str__(self):
         return self.title
+        
 
 
 class FeedComment(models.Model):
